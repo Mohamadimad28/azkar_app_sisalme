@@ -6,8 +6,9 @@ class InfoScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ModalRoute? modalRoute = ModalRoute.of(context); //al modal route in abstract class
-  //لازم يكون في اليسار نفس ما تم ارجاعه من اليمين تم ارجاع    modal rout null وباليسار بدو يرجع null
+    ModalRoute? modalRoute =
+        ModalRoute.of(context); //al modal route in abstract class
+    //لازم يكون في اليسار نفس ما تم ارجاعه من اليمين تم ارجاع    modal rout null وباليسار بدو يرجع null
     if (modalRoute != null) {
       //ازا كان المودل راوت لا يساوي نل
       RouteSettings routeSettings =
@@ -24,8 +25,9 @@ class InfoScreen extends StatelessWidget {
           //ازا كانت الداتا تحتوي على كي خلي المسج يساوي داتا وهات منها كي اسمو مسج
         }
         //حكينا ايف عشان نقولو ازا الداتا موجود فيها الكي موجود ولا لاء والكي هوا مسج الي عرفناها بالارقيمنت وعرفنا متغير فوق يعطيني ديفولت مسج
-
-      }
+      //   message =
+      //       data.containsKey('message') ? data['message'] : 'Default Message1';
+       }
     }
     return Scaffold(
       extendBodyBehindAppBar: true,
